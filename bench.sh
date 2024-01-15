@@ -1,6 +1,6 @@
 #!/bin/bash
 
-
+apt update && apt install fio jq
 SCRIPTPATH=`pwd`
 
 #get block device or a file for test
